@@ -125,13 +125,12 @@ p {
 }
 
 .sections {
-    width: 1024px;
     margin: auto;
 }
 
 .portfoliocontainer {
     display: flex;
-    margin: 40px 0px;
+    margin: 40px 15%;
 }
 
 .portfoliocontent {
@@ -211,12 +210,15 @@ footer img {
 }
 
 .uxuidesign {
-    padding-left: 450px;
-    padding-right: 450px;
+    padding-left: 32%;
+    padding-right: 32%;
     font-family: 'Montserrat-Reg';
     font-size: 18pt;
     color: #ffffff;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .downloadresume {
@@ -227,9 +229,9 @@ footer img {
     padding: 10px;
     margin-top: 40px;
     margin-bottom: 60px;
-    align-items: center;
-    justify-content: center;
-    margin-left: 350px;
+    width: 180px;
+    align-self:flex-end;
+    
 }
 
 #about > h2 {
@@ -243,8 +245,10 @@ footer img {
 } 
 
 #about {
-    margin: 0 450px;
+    margin: 0;
     margin-bottom: 50px;
+    padding-left: 32%;
+    padding-right: 32%;
 }
 
 #content-left {
@@ -264,11 +268,14 @@ footer img {
     color: #FFFFFF;
     text-align: center;
     padding-top: 40px;
+
 }
 
 .contactFormContainer {
-    margin-left: 450px;
-    margin-right: 450px;
+    padding-top: 0%;
+    margin-top: 0;
+    padding-left: 32%;
+    padding-right: 32%;
     /* padding: 20px; */
 }
 
