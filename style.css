@@ -140,13 +140,21 @@ p {
     color: #3B4B64; 
 }
 
-.sections button {
+button {
     background-color: #E4A01B;
     color: #323640; 
     font-family: 'Montserrat-Reg';
     font-size: 18pt;
     padding: 10px;
     margin-top: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 0;
+    padding-left: 65px;
+    padding-right: 65px;
+    font-size: 18px;
+    font-family: 'Montserrat-Reg'; 
+    
 }
 
 button:hover {
@@ -216,51 +224,52 @@ footer img {
     font-size: 18pt;
     color: #ffffff;
     text-align: left;
-    display: flex;
-    flex-direction: column;
-
+    /* display: flex;
+    flex-direction: column; */
 }
 
 .downloadresume {
-    background-color: #E4A01B;
-    color: #323640; 
-    font-family: 'Montserrat-Reg';
-    font-size: 18pt;
-    padding: 10px;
     margin-top: 40px;
     margin-bottom: 60px;
-    width: 180px;
-    align-self:flex-end;
-    
+    /* align-self:flex-end; */
+    margin-right: auto;
+    margin-left: auto;
 }
+
+
 
 #about > h2 {
     color: #323640; 
     text-align: center;   
+    
 }
 
  .sectionAboutContent {
     display: flex;
     align-items: flex-start; 
+    
 } 
 
 #about {
-    margin: 0;
+    /* margin: 0;
     margin-bottom: 50px;
     padding-left: 32%;
-    padding-right: 32%;
+    padding-right: 32%; */
+    margin: 40px 15%;
+    
 }
 
 #content-left {
     margin-right: 40px;
 }
 
-.hiimjohnny {
-    margin-left: 450px;
-}
 
 #aboutmephoto {
     object-fit: contain;
+    float: right;
+    border-radius: 12px;
+    box-shadow: 7px 7px 15px grey;
+    margin-left: 3%;
 }
 
 #contactheader {
@@ -280,8 +289,9 @@ footer img {
 }
 
 .sendButton {
-    background-color: #E4A01B;
+    margin-top: 0;
     margin-bottom: 40px;
+    width: 83%;
 }
 
 @media screen and (max-width: 600) {
